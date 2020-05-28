@@ -1,0 +1,30 @@
+{
+  "name": "guillaumejchauveau/rest",
+  "license": "MIT",
+  "type": "library",
+  "description": "A small REST API framework",
+  "authors": [
+    {
+      "name": "Guillaume Chauveau",
+      "email": "guillaumejchauveau.ops.gecu@outlook.com",
+      "homepage": "https://github.com/guillaumejchauveau",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.1.0",
+    "psr/container": "~1.0.0",
+    "psr/http-message": "~1.0.0",
+    "psr/http-factory": "~1.0.1",
+    "psr/http-server-handler": "~1.0.1",
+    "psr/http-server-middleware": "~1.0.1"
+  },
+  "autoload": {
+    "GECU\\Common": "src/Common",
+    "GECU\\Http": "src/Http",
+    "GECU\\Router": "src/Router",
+    "GECU\\Runtime": "src/Runtime",
+    "GECU\\Security": "src/Security",
+    "GECU\\Rest": "src/Rest"
+  }
+}
